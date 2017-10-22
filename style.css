@@ -1,0 +1,91 @@
+a , a:hover{
+  text-decoration: none !important;
+  color: black;
+}
+
+.gameFieldContainer {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.gameField {
+  color: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+.winningField {
+  background: rgba(0, 255, 143, 0.5);
+}
+
+.activeField {
+  background: rgba(255, 255, 0, 0.4);
+}
+
+.gameControls {
+  display: flex;
+  justify-content: center;
+}
+
+.resetButton {
+  margin: 5px;
+}
+
+.moveButton {
+  margin: 5px;
+}
+
+.topL {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.topM {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.topR {
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.middleL {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.middleM {
+  border: 2px solid black;
+}
+
+.middleR {
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.bottomL {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.bottomM {
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.bottomR {
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+}
+
